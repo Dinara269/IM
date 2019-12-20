@@ -1,0 +1,18 @@
+[Project]
+Owner=Unknown
+Name=magazin
+GUID={2916341F-7B59-46D8-ABCA-B1BE5D0C04B8}
+CQWebURL=
+isTrackChangesAllowed=1
+Description=
+Owner Key=1
+Revision number=1.0004
+Prefix=
+NbrRequirements=3
+Directory=C:\Program Files (x86)\Rational\RequisitePro\TZ\magazin\magazin.rqs
+Key=1
+
+[Application]
+Data file version=1.0040
+Program Version=9.100.0.1
+
