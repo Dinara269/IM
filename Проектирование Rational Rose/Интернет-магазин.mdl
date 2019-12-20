@@ -47,7 +47,23 @@
 	(object Attribute
 	    tool       	"Java"
 	    name       	"UserDefineTagApply3"
-	    value      	""))
+	    value      	"")
+	(object Attribute
+	    tool       	"RequisitePro"
+	    name       	"ReqProProjectPath"
+	    value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+	(object Attribute
+	    tool       	"RequisitePro"
+	    name       	"ReqProProjectGuid"
+	    value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+	(object Attribute
+	    tool       	"RequisitePro"
+	    name       	"ReqProDocType"
+	    value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+	(object Attribute
+	    tool       	"RequisitePro"
+	    name       	"ReqProReqType"
+	    value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}"))
     quid       	"5DF8B915011D"
     enforceClosureAutoLoad 	FALSE
     defaults   	(object defaults
@@ -75,6 +91,23 @@
 	showClassOfObject 	TRUE
 	notation   	"Unified")
     root_usecase_package 	(object Class_Category "Use Case View"
+	attributes 	(list Attribute_Set
+	    (object Attribute
+		tool       	"RequisitePro"
+		name       	"ReqProProjectPath"
+		value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+	    (object Attribute
+		tool       	"RequisitePro"
+		name       	"ReqProProjectGuid"
+		value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+	    (object Attribute
+		tool       	"RequisitePro"
+		name       	"ReqProDocType"
+		value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+	    (object Attribute
+		tool       	"RequisitePro"
+		name       	"ReqProReqType"
+		value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}"))
 	quid       	"5DF8B915011F"
 	exportControl 	"Public"
 	global     	TRUE
@@ -86,19 +119,243 @@
 		quid       	"5DF8C0B4038E"
 		stereotype 	"Actor")
 	    (object UseCase "Просмотр вкладки \"Распродажа\""
-		quid       	"5DF8B9E2002D")
-	    (object UseCase "Просмотр вкладки \"Лидеры подаж\""
-		quid       	"5DF8BA7802C5")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{5A3225B3-1946-4855-B2B0-DE00CA8D7566}"))
+		quid       	"5DF8B9E2002D"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
+	    (object UseCase "Просмотр вкладки \"Лидеры продаж\""
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{90DD61A1-49F8-415D-9760-C86E24BEE72D}"))
+		quid       	"5DF8BA7802C5"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр вкладки \"Категории товара\""
-		quid       	"5DF8BA8B0035")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{402831E5-1845-4C95-AD5F-F732EC09D68A}"))
+		quid       	"5DF8BA8B0035"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр вкладки \"Новинки\""
-		quid       	"5DF8BAAC0066")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{97388735-3399-404F-83FA-D7E1C903F6D2}"))
+		quid       	"5DF8BAAC0066"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр товара"
-		quid       	"5DF8BB3F0157")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{FA25123A-B34D-4A7F-B35D-BAEE1D35C4BC}"))
+		quid       	"5DF8BB3F0157"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Поиск товара по параметрам"
-		quid       	"5DF8BB5602FE")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{96BD20B4-841F-4A1C-A6CE-CA80A381C8DB}"))
+		quid       	"5DF8BB5602FE"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Регистрация пользователя"
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{84C0BB7E-05FE-48FC-858F-CE9712ECCE5E}"))
 		quid       	"5DF8BB60035C"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS"))
 		visible_modules 	(list dependency_list
 		    (object Dependency_Relationship
 			quid       	"5DF8BD0002F3"
@@ -106,7 +363,39 @@
 			supplier   	"Use Case View::Заполнить контактную информацию"
 			quidu      	"5DF8BC8B002E")))
 	    (object UseCase "Добавление товара в корзину"
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{2BEB2DBA-0405-4100-AF4E-E674EA7496DB}"))
 		quid       	"5DF8BB7A015A"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS"))
 		visible_modules 	(list dependency_list
 		    (object Dependency_Relationship
 			quid       	"5DF8BFED0067"
@@ -114,7 +403,39 @@
 			supplier   	"Use Case View::Редактирование корзины"
 			quidu      	"5DF8BB95035F")))
 	    (object UseCase "Редактирование корзины"
-		quid       	"5DF8BB95035F")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{96D4ECB5-5C75-4CC0-B098-A42D1B8DB98C}"))
+		quid       	"5DF8BB95035F"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Заполнить контактную информацию"
 		quid       	"5DF8BC8B002E"
 		visible_modules 	(list dependency_list
@@ -148,6 +469,23 @@
 			supplier   	"Use Case View::Редактирование корзины"
 			quidu      	"5DF8BB95035F")))
 	    (object UseCase "Авторизация пользователя"
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}"))
 		quid       	"5DF8BDB603B7")
 	    (object UseCase "Поиск товара по цене"
 		quid       	"5DF8BE280320"
@@ -190,17 +528,209 @@
 			supplier   	"Use Case View::Просмотр товара"
 			quidu      	"5DF8BB3F0157")))
 	    (object UseCase "Просмотр списка пользователей"
-		quid       	"5DF8C0EE00A2")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{6658FAF4-F140-47CB-AD85-4D6CD654DED1}"))
+		quid       	"5DF8C0EE00A2"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр списка товаров"
-		quid       	"5DF8C0F202B6")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{F2F2E27B-2D51-4D84-BBC4-DCC85BDC6401}"))
+		quid       	"5DF8C0F202B6"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр списка заказов"
-		quid       	"5DF8C0F40074")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{465D3914-9371-45EC-A187-075E6B6E60E5}"))
+		quid       	"5DF8C0F40074"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр отзывов"
-		quid       	"5DF8C0F503A0")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{0786755E-ED9F-4401-AD04-BD4DD60D372A}"))
+		quid       	"5DF8C0F503A0"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр списка категорий"
-		quid       	"5DF8C0F702C6")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{8A788DEF-2B4E-4396-9766-406672EBA7D9}"))
+		quid       	"5DF8C0F702C6"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Просмотр новостей"
-		quid       	"5DF8C0F902E5")
+		attributes 	(list Attribute_Set
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectPath"
+			value      	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\Техническое задание.rqs")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocType"
+			value      	"{1AC7D26B-6D68-44BB-B0A1-7475D6328E17}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProReqType"
+			value      	"{76964DAE-F5BF-4EA5-A08D-3694D347810D}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProProjectGuid"
+			value      	"{412A0942-3D8F-4D92-99A4-9CE780EE653E}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentGuid"
+			value      	"{907E1679-262C-4208-BA1B-72520264A4CF}")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProDocumentName"
+			value      	"ТЗ")
+		    (object Attribute
+			tool       	"RequisitePro"
+			name       	"ReqProRequirementId"
+			value      	"{963A92E9-9ED7-4216-A303-797228EC30F4}"))
+		quid       	"5DF8C0F902E5"
+		external_docs 	(list external_doc_list
+		    (object external_doc
+			external_doc_path 	"C:\\Program Files (x86)\\Rational\\RequisitePro\\TZ\\Техническое задание\\ТЗ.DOSS")))
 	    (object UseCase "Добавить категорию"
 		quid       	"5DF8C0FB020A"
 		visible_modules 	(list dependency_list
@@ -349,7 +879,7 @@
 		    (object Role "$UNNAMED$4"
 			quid       	"5DF8BBD000C2"
 			supplier   	
-|Use Case View::Просмотр вкладки "Лидеры подаж"
+|Use Case View::Просмотр вкладки "Лидеры продаж"
 			
 			quidu      	"5DF8BA7802C5"
 			is_navigable 	TRUE)
@@ -666,7 +1196,7 @@
 			fill_color 	13434879
 			quidu      	"5DF8B9E2002D"
 			height     	118)
-		    (object UseCaseView "Use Case View::Просмотр вкладки \"Лидеры подаж\"" @6
+		    (object UseCaseView "Use Case View::Просмотр вкладки \"Лидеры продаж\"" @6
 			location   	(829, 398)
 			font       	(object Font
 			    size       	10
@@ -686,7 +1216,7 @@
 			    max_width  	630
 			    justify    	0
 			    label      	
-|Просмотр вкладки "Лидеры подаж"
+|Просмотр вкладки "Лидеры продаж"
 			    )
 			icon_style 	"Icon"
 			line_color 	3342489
@@ -1210,7 +1740,7 @@
 				    (1369, 906))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$18" @36
-			location   	(1379, 1175)
+			location   	(1393, 1217)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -1227,27 +1757,27 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$19" @37
 				Parent_View 	@36
-				location   	(202, 559)
+				location   	(216, 601)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5DF8BBEE0373"
 				client     	@36
 				supplier   	@13
 				vertices   	(list Points
-				    (1379, 1175)
+				    (1393, 1217)
 				    (1431, 1326))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$20" @38
 				Parent_View 	@36
-				location   	(202, 559)
+				location   	(216, 601)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5DF8BBEE0375"
 				client     	@36
 				supplier   	@17
 				vertices   	(list Points
-				    (1379, 1175)
-				    (1327, 1025))
+				    (1393, 1217)
+				    (1356, 1109))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$21" @39
 			location   	(1078, 976)
@@ -2329,7 +2859,7 @@
 				    (1418, 907))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$42" @95
-			location   	(1685, 909)
+			location   	(1730, 940)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -2346,27 +2876,27 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$43" @96
 				Parent_View 	@95
-				location   	(280, 187)
+				location   	(325, 218)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5DF8C1F80068"
 				client     	@95
 				supplier   	@80
 				vertices   	(list Points
-				    (1685, 909)
+				    (1730, 940)
 				    (1908, 1060))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$44" @97
 				Parent_View 	@95
-				location   	(280, 187)
+				location   	(325, 218)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5DF8C1F8006A"
 				client     	@95
 				supplier   	@82
 				vertices   	(list Points
-				    (1685, 909)
-				    (1462, 759))
+				    (1730, 940)
+				    (1553, 820))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$45" @98
 			location   	(1767, 749)
