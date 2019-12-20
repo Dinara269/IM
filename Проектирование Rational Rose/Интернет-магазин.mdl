@@ -1836,7 +1836,7 @@
 			    default_color 	TRUE)
 			stereotype 	(object SegLabel @70
 			    Parent_View 	@69
-			    location   	(615, 1456)
+			    location   	(614, 1457)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -1862,7 +1862,7 @@
 			supplier   	@14
 			vertices   	(list Points
 			    (458, 1496)
-			    (732, 1247))
+			    (730, 1249))
 			line_style 	0)
 		    (object DependencyView "" @71
 			font       	(object Font
@@ -2329,7 +2329,7 @@
 				    (1418, 907))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$42" @95
-			location   	(1731, 940)
+			location   	(1685, 909)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -2346,27 +2346,27 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$43" @96
 				Parent_View 	@95
-				location   	(326, 218)
+				location   	(280, 187)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5DF8C1F80068"
 				client     	@95
 				supplier   	@80
 				vertices   	(list Points
-				    (1731, 940)
+				    (1685, 909)
 				    (1908, 1060))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$44" @97
 				Parent_View 	@95
-				location   	(326, 218)
+				location   	(280, 187)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5DF8C1F8006A"
 				client     	@95
 				supplier   	@82
 				vertices   	(list Points
-				    (1731, 940)
-				    (1555, 821))
+				    (1685, 909)
+				    (1462, 759))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$45" @98
 			location   	(1767, 749)
